@@ -1,8 +1,8 @@
 # GPU Monitor
 
-This is a tool intended to monitor the GPU usage on the various GPU-servers at the LIP6 Lab, UPMC, Paris. This code has been written with the "quickest and dirtiest" principle in mind, it is absolutely awful, please do not read it :persevere:
-
-The principle is as follows. A bunch of Bash / Python scripts runs regularly `nvidia-smi` and `ps` to extract data and sends them to my `public_html` space. Each time someone wants to see the status of the GPUs, the page `index.php` reads the latest data files for each server and displays those.
+Simple correction of GPU Monitor : https://github.com/ThomasRobertFr/gpu-monitor
+* Get pstate infos and use better option to get free memory (see nvidia-smi manual : memory.free/pstate)
+* You need to grep/change REPO_PATH with the path were you installed your clone and then you only need to follow the instructions of the main repo.
 
 ## How to setup
 
