@@ -2,7 +2,7 @@
 
 Simple correction of GPU Monitor : https://github.com/ThomasRobertFr/gpu-monitor
 * Get pstate infos and use better option to get free memory (see nvidia-smi manual : memory.free/pstate)
-* You need to grep/change REPO_PATH with the path were you installed your clone and then you only need to follow the instructions of the main repo.
+* You need to grep/change REPO_PATH with the path where you installed your clone and then you only need to follow the instructions of the main repo.
 
 ## How to setup
 
