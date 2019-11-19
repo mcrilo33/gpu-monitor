@@ -4,7 +4,7 @@ from dateutil.parser import parse
 import sys
 
 # GET PIDs
-p = Popen(["tail", "-n", "80", sys.argv[1] if len(sys.argv) > 1 else "/tmp/gpuReadings/processes.csv"], stdout=PIPE)
+p = Popen(["tail", "-n", "80", sys.argv[1] if len(sys.argv) > 1 else "/tmp/processes.csv"], stdout=PIPE)
 data, _ = p.communicate()
 data = data.decode("utf-8").split("\n")
 
